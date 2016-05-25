@@ -45,13 +45,16 @@
         \end{array}
         $
 
-        \hfill
-        \href{https://linkedin.com/in/ross-tollefson-b57b944a}{https://linkedin.com/in/ross-tollefson-b57b944a}
+        \hfill 
+        \color{fade-gray}
+        \small
+        \href{https://bitbucket.org/past9systems}{https://bitbucket.org/past9systems}
         $
         \begin{array}{l}
-        \includegraphics[scale=0.018]{linkedin}
+        \includegraphics[scale=0.17]{bitbucket}
         \end{array}
         $
+
     }
 
     \bigskip\bigskip\bigskip
@@ -65,11 +68,103 @@
     \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
     \medskip
 
-    Software engineer with 4 years experience in object-oriented design, web development (front and back end), and single-page applications. Seeking full-time permanent employment or contract work.
+    Software engineer with 4.5 years experience in object-oriented design, web development (front and back end), single-page applications, and event-sourcing architectures. Seeking contract or consulting roles.
 
+
+    \bigskip\bigskip\bigskip
+
+
+    {
+        \noindent\Large
+        Technical Skills
+    }
+
+    \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
     \medskip
 
-    Technical skills include JavaScript, .NET (C\#, Web API), SQL Server, MySQL, HTML5, CSS3, Bootstrap 3, AngularJS, jQuery, PHP5, Rust, Go, REST APIs, Event Sourcing, CQRS, Domain Driven Design, Object-oriented design, Git, Team Foundation Server, VIM, Visual Studio, Linux (Ubuntu), Windows.
+
+    \begin{multicols}{2}
+        \textbf{Architectures}
+
+            \smallskip
+
+            Object-Oriented Design
+
+            Event Sourcing
+
+            CQRS
+
+            Domain-Driven Design
+
+            REST APIs
+
+        \bigskip
+
+        \textbf{Languages}
+
+            \smallskip
+
+            C\# (.NET)
+            
+            JavaScript 
+
+            TypeScript
+            
+            SQL
+
+            Rust
+
+            Go
+
+            PHP5
+
+            HTML5
+
+            CSS3
+
+        \columnbreak
+
+        \textbf{Frameworks}
+
+            \smallskip
+
+            AngularJS (1 and 2)
+
+            jQuery
+
+            Bootstrap 3
+
+            WPF 
+
+        \bigskip
+            
+        \textbf{Tools}
+
+            \smallskip
+
+            Visual Studio
+
+            Vim
+
+            Git
+
+            Team Foundation Server
+
+            Visual Studio Online
+
+
+        \bigskip
+
+        \textbf{Operating Systems}
+
+            \smallskip
+
+            Linux (Ubuntu)
+
+            Microsoft Windows 
+
+    \end{multicols}
+
 
     
     \bigskip\bigskip\bigskip
@@ -84,11 +179,32 @@
 
     {
         \large
+        Kiosk Information Systems
+        {
+            \color{fade-gray}
+            \small
+            (Dec 2015 - May 2016)
+        }
+    }
+
+    \medskip
+
+    Implemented an event store in C\# with an asynchronous Linq-like API for querying event data. Supported storage backends included SQL Server, PostGreSQL, MySQL, SQLite3, MongoDB and in-memory storage.
+
+    \smallskip
+
+    Worked with a team of 3 other developers to build a WPF GUI for a Cox Communications bill-pay kiosk. GUI application included integration with hardware devices (credit card reader, check/document scanner, cash acceptor, and barcode reader) as well as Cox APIs. Aforementioned event store was used to log transaction data for generating receipts and reconciliation reports for the kiosk.
+
+
+    \bigskip\bigskip
+
+    {
+        \large
         Freight Systems International
         {
             \color{fade-gray}
             \small
-            (Apr 2014 - Nov 2015)
+            (Apr 2014 - Oct 2015)
         }
     }
 
@@ -172,27 +288,12 @@
 
     {
         \large
-        \href{http://github.com/Past9/gong}{Gong}
+        \href{https://bitbucket.org/past9systems/earldb}{EarlDB}
     }
 
     \medskip
 
-    Gong is an event store I'm developing for use in event-sourced applications and microservice architectures. It is unique because it's written in Rust, the new systems programming language from Mozilla, which I hope to take advantage of in order to achieve high performance and reliability.
-
-    \smallskip
-
-    The secondary purpose of this project is to help me learn the Rust language and evaluate its suitability for full-stack web development. Whether it can be used to build large web applications in a timely manner remains to be seen, but I believe it's an excellent choice for building backend server software such as databases and event stores.
-
-    \bigskip\bigskip
-
-    {
-        \large
-        \href{http://github.com/Past9/tocsin}{Tocsin}
-    }
-
-    \medskip
-
-    An event store written in Go. This is very similar to Gong and they are being developed in parallel. I'm using Go to prototype the API and work out any kinks in the implementation before porting it back to Rust. There are a lot of good things about Rust, but its strictness makes experimentation difficult.
+    EarlDB is an experimental event store database written in the Rust programming language. It is intended for use in event-sourced applications. It is in very early stages of development, but planned features include transaction support, sharding, and replication. I am undertaking this project partly to satisfy my own desire for a cross-platform, natively compiled event store database and partly to learn about how the previously mentioned database concepts are implemented. It is also an exercise in becoming more proficient with the Rust programming language.
 
 
     \bigskip\bigskip\bigskip
